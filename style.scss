@@ -328,6 +328,7 @@ body {
           }
         }
     }
+<<<<<<< HEAD
     .footer {
       display: none;
     }
@@ -359,4 +360,20 @@ body {
         }
     }
     
+=======
+    footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      border-radius: 48px 48px 0 0;
+      padding: 48px;
+      height: 140px;
+      background-color: $primary900;
+      p {
+        color: $neutral0;
+      }
+    }
+>>>>>>> cb9e3b1dd8fb3c652b3321e62c13cc3697ebafc4
 }
