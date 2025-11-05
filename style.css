@@ -305,17 +305,6 @@ body .footer {
   display: none;
 }
 @media screen and (min-width: 1440px) {
-  body .cards-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  body .img-container-right {
-    margin-left: 0px;
-  }
-  body .img-container-left {
-    margin-right: 0px;
-  }
   body .footer {
     display: flex;
     flex-direction: row;
