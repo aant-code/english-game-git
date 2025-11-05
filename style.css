@@ -234,9 +234,9 @@ body .challenge-section h2 {
   margin-bottom: 72px;
   text-align: center;
 }
-body .challenge-section p.s-bold {
+body .challenge-section h4 {
   margin-bottom: 8px;
-  width: 75%;
+  width: 80%;
 }
 body .challenge-section .background-img {
   background-color: #ffffff;
