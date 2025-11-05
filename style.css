@@ -220,7 +220,7 @@ body .quiz-section button {
   font-size: 16px;
 }
 body .challenge-section {
-  background-color: #09aab1;
+  background-color: #00C0D0;
   border-top-left-radius: 25px;
   border-top-right-radius: 25px;
   padding-bottom: 24px;
@@ -236,12 +236,14 @@ body .challenge-section h2 {
 }
 body .challenge-section h4 {
   margin-bottom: 8px;
-  width: 80%;
 }
 body .challenge-section img {
   margin: 45px;
   width: 75%;
   height: auto;
+}
+body .challenge-section p {
+  margin-bottom: 72px;
 }
 body .challenge-section .background-img-left {
   background-color: #ffffff;
