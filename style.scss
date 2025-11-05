@@ -153,8 +153,6 @@ $other_warning-hover: #ff7800;
 $other_blue-mds-logo: #43bccb;
 $other_blue-mds-logo-icon: #65c8d5;
 
-// ... *Gérer les espacements avec des multiples de 8px*
-
 // infos design
 body {
     margin: 0;
@@ -293,20 +291,13 @@ body {
         }
     }
     .challenge-section {
-<<<<<<< HEAD
-        margin-top: -48px;
-        background-color: $primary600;
-        border-radius: 48px 48px 0 0;
-=======
         background-color: #00C0D0;
         border-top-left-radius: 25px;
         border-top-right-radius: 25px;
->>>>>>> 428f9aa99bfd7211852760f882bb9ca9c61ad7a0
         padding-bottom: 24px;
         color: $neutral0;
         display: flex;
         flex-direction: column;
-        align-items: center;
         h2 {
             margin-top: 72px;
             margin-bottom: 72px;
@@ -333,7 +324,7 @@ body {
         p {
             margin-bottom: 72px;
         }
-        .background-img-left {
+        .img-container-left {
             width: auto;
             background-color: $neutral0;
             margin-left: -72px;
@@ -342,7 +333,14 @@ body {
             display: flex;
             justify-content: flex-end;
         }
-        .background-img-right {
+
+        @media (min-width: $width-menu-xl) {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+
+        .img-container-right {
             width: auto;
             background-color: $neutral0;
             margin-right: -72px;
