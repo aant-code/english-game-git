@@ -170,7 +170,7 @@ body .navbar .menu {
   }
 }
 body section {
-  padding: 0 24px;
+  padding: 0 8%;
 }
 body .hero-section {
   background-color: #083c44;
@@ -259,5 +259,5 @@ body .challenge-section .background-img-right {
   padding: 48px;
   border-radius: 25px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: flex-start;
 }/*# sourceMappingURL=style.css.map */
