@@ -286,6 +286,7 @@ body {
         }
     }
     .challenge-section {
+<<<<<<< HEAD
         background-color: #00C0D0;
         position: relative;
         top: -96px;
@@ -295,49 +296,72 @@ body {
         color: $neutral0;
         display: flex;
         flex-direction: column;
+=======
+      background-color: #00C0D0;
+      border-top-left-radius: 25px;
+      border-top-right-radius: 25px;
+      padding-bottom: 24px;
+      color: $neutral0;
+>>>>>>> 1df38ad (14-challenge-amira)
         h2 {
-            margin-top: 72px;
-            margin-bottom: 72px;
-            text-align: center;
+          margin-top: 72px;
+          margin-bottom: 72px;
+          text-align: center;
         }
         h4 {
-            margin-bottom: 8px;
-        }
-        img {
-            width: auto;
+          margin-bottom: 8px;
         }
         p {
-            margin-bottom: 72px;
+          margin-bottom: 72px;
+        }
+        .cards-container {
+          margin-top: 48px;
+          margin-bottom: 48px;
+          display: flex;
+          flex-direction: column;
+          gap: 48px;
         }
         .img-container-left {
-            background-color: $neutral0;
-            margin-left: -72px;
-            padding: 48px;
-            border-radius: 25px;
-            display: flex;
-            justify-content: flex-end;
+          background-color: $neutral0;
+          margin-left: -72px;
+          padding: 48px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: flex-end;
         }
-
         .img-container-right {
-            background-color: $neutral0;
-            margin-right: -72px;
-            padding: 48px;
-            border-radius: 25px;
+          background-color: $neutral0;
+          margin-right: -72px;
+          padding: 48px;
+          border-radius: 25px;
+          display: flex;
+          justify-content: flex-start;
+        }
+        @media screen and (min-width: $width-menu-xl) {
+          .cards-container {
             display: flex;
-            justify-content: flex-start;
+            flex-direction: row;
+            justify-content: space-between;
+          }
+          .img-container-right {
+            margin-left: 0px;
+          }
+          .img-container-left {
+            margin-right: 0px;
+          }
         }
     }
     @media screen and (min-width: $width-menu-xl) {
-        .challenge-section {
+        .cards-container {
           display: flex;
           flex-direction: row;
           justify-content: space-between;
         }
-        .img-container-left {
-            margin: 0px;
-        }
         .img-container-right {
-            margin: 0px;
+          margin-left: 0px;
+        }
+        .img-container-left {
+          margin-right: 0px;
         }
     }
 }
