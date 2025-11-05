@@ -115,6 +115,7 @@ p {
 }
 
 body {
+  background-color: #00C0D0;
   margin: 0;
   padding: 0;
 }
@@ -256,6 +257,8 @@ body .challenge-section {
   border-top-right-radius: 48px;
   padding-bottom: 24px;
   color: #ffffff;
+  display: flex;
+  flex-direction: column;
 }
 body .challenge-section h2 {
   margin-top: 72px;
@@ -316,4 +319,18 @@ body .challenge-section .img-container-right {
   body .img-container-left {
     margin-right: 0px;
   }
+}
+body footer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
+  border-radius: 48px 48px 0 0;
+  padding: 48px;
+  height: 140px;
+  background-color: #165963;
+}
+body footer p {
+  color: #ffffff;
 }/*# sourceMappingURL=style.css.map */

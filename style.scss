@@ -155,6 +155,7 @@ $other_blue-mds-logo-icon: #65c8d5;
 
 // infos design
 body {
+    background-color: #00C0D0;
     margin: 0;
     padding: 0;
     .navbar {
@@ -286,7 +287,6 @@ body {
         }
     }
     .challenge-section {
-<<<<<<< HEAD
         background-color: #00C0D0;
         position: relative;
         top: -96px;
@@ -296,13 +296,6 @@ body {
         color: $neutral0;
         display: flex;
         flex-direction: column;
-=======
-      background-color: #00C0D0;
-      border-top-left-radius: 25px;
-      border-top-right-radius: 25px;
-      padding-bottom: 24px;
-      color: $neutral0;
->>>>>>> 1df38ad (14-challenge-amira)
         h2 {
           margin-top: 72px;
           margin-bottom: 72px;
@@ -363,5 +356,19 @@ body {
         .img-container-left {
           margin-right: 0px;
         }
+    }
+    footer {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: space-between;
+      position: relative;
+      border-radius: 48px 48px 0 0;
+      padding: 48px;
+      height: 140px;
+      background-color: $primary900;
+      p {
+        color: $neutral0;
+      }
     }
 }
