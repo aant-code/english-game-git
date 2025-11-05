@@ -300,13 +300,12 @@ body {
             margin-bottom: 8px;
         }
         img {
-            width: 80%;
+            width: auto;
         }
         p {
             margin-bottom: 72px;
         }
         .img-container-left {
-            width: auto;
             background-color: $neutral0;
             margin-left: -72px;
             padding: 48px;
@@ -315,20 +314,26 @@ body {
             justify-content: flex-end;
         }
 
-        @media screen and (min-width: $width-menu-xl) {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
         .img-container-right {
-            width: auto;
             background-color: $neutral0;
             margin-right: -72px;
             padding: 48px;
             border-radius: 25px;
             display: flex;
             justify-content: flex-start;
+        }
+    }
+    @media screen and (min-width: $width-menu-xl) {
+        .challenge-section {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+        }
+        .img-container-left {
+            margin: 0px;
+        }
+        .img-container-right {
+            margin: 0px;
         }
     }
 }

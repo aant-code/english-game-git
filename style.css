@@ -264,13 +264,12 @@ body .challenge-section h4 {
   margin-bottom: 8px;
 }
 body .challenge-section img {
-  width: 80%;
+  width: auto;
 }
 body .challenge-section p {
   margin-bottom: 72px;
 }
 body .challenge-section .img-container-left {
-  width: auto;
   background-color: #ffffff;
   margin-left: -72px;
   padding: 48px;
@@ -278,19 +277,24 @@ body .challenge-section .img-container-left {
   display: flex;
   justify-content: flex-end;
 }
-@media screen and (min-width: 1440px) {
-  body .challenge-section {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-}
 body .challenge-section .img-container-right {
-  width: auto;
   background-color: #ffffff;
   margin-right: -72px;
   padding: 48px;
   border-radius: 25px;
   display: flex;
   justify-content: flex-start;
+}
+@media screen and (min-width: 1440px) {
+  body .challenge-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  body .img-container-left {
+    margin: 0px;
+  }
+  body .img-container-right {
+    margin: 0px;
+  }
 }/*# sourceMappingURL=style.css.map */
