@@ -268,23 +268,25 @@ body {
         display: flex;
         flex-direction: column;
         align-items: center;
-        h3 {
-            margin-bottom: 16px;
+        h2 {
+            margin-top: 72px;
+            margin-bottom: 72px;
             text-align: center;
-        }
-        img {
-            width: 200px;
-            height: auto;
-            margin-bottom: 16px;
         }
         p.s-bold {
             margin-bottom: 8px;
+            width: 75%;
         }
         .background-img {
             background-color: $neutral0;
             margin-left: -24px;
             border-top-right-radius: 25px;
             border-bottom-right-radius: 25px;
+            img {
+            margin: 45px;
+            width: 75%;
+            height: auto;
+        }
         }
     }
 }
