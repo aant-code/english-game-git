@@ -264,7 +264,7 @@ body {
             margin-bottom: 8px;
         }
         img {
-            width: 80%;
+            width: auto;
         }
         p {
             margin-bottom: 72px;
@@ -279,12 +279,6 @@ body {
             justify-content: flex-end;
         }
 
-        @media screen and (min-width: $width-menu-xl) {
-            display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-        }
-
         .img-container-right {
             width: auto;
             background-color: $neutral0;
@@ -293,6 +287,12 @@ body {
             border-radius: 25px;
             display: flex;
             justify-content: flex-start;
+        }
+
+        @media screen and (min-width: $width-menu-xl) {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
         }
     }
 }
