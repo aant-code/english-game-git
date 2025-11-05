@@ -193,15 +193,16 @@ body {
               margin-left: 16px;
           }
       }
+    
     }
-}
-
-.hero-section {
+    .hero-section {
     background-color: $primary900;
     display: flex;
     flex-direction: column;
     align-items: center;
-    h3 {
+    padding-top: 32px;
+    padding-bottom: 32px;
+    h1 {
         color: $primary100;
     }
     p {
@@ -217,6 +218,7 @@ body {
     }
     video {
         border: 5px solid $primary100;
-        border-radius: 8%;
+        border-radius: 25px;
     }
+}
 }
