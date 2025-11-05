@@ -306,7 +306,6 @@ body .challenge-section .img-container-right {
   body .challenge-section .img-container-left {
     margin-right: 0px;
   }
-<<<<<<< HEAD
 }
 @media screen and (min-width: 1440px) {
   body .cards-container {
@@ -334,6 +333,4 @@ body footer {
 }
 body footer p {
   color: #ffffff;
-=======
->>>>>>> acfc9728fc5393e53ff6dabaf918e61d42826c26
 }/*# sourceMappingURL=style.css.map */
