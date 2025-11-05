@@ -275,6 +275,7 @@ body {
           color: $primary900;
         }
         p {
+          width: 70%;
           text-align: center;
           color: $primary900;
           margin: 0;
@@ -327,6 +328,9 @@ body {
           }
         }
     }
+    .footer {
+      display: none;
+    }
     @media screen and (min-width: $width-menu-xl) {
         .cards-container {
           display: flex;
@@ -339,20 +343,20 @@ body {
         .img-container-left {
           margin-right: 0px;
         }
-        
+        .footer {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          position: relative;
+          border-radius: 48px 48px 0 0;
+          padding: 48px;
+          height: 140px;
+          background-color: $primary900;
+        }
+        p {
+          color: $neutral0;
+        }
     }
-    footer {
-      display: flex;
-      flex-direction: row;
-      align-items: center;
-      justify-content: space-between;
-      position: relative;
-      border-radius: 48px 48px 0 0;
-      padding: 48px;
-      height: 140px;
-      background-color: $primary900;
-      p {
-        color: $neutral0;
-      }
-    }
+    
 }

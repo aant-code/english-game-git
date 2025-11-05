@@ -237,6 +237,7 @@ body .quiz-section h1 {
   color: #165963;
 }
 body .quiz-section p {
+  width: 70%;
   text-align: center;
   color: #165963;
   margin: 0;
@@ -288,6 +289,9 @@ body .challenge-section .img-container-right {
     display: flex;
   }
 }
+body .footer {
+  display: none;
+}
 @media screen and (min-width: 1440px) {
   body .cards-container {
     display: flex;
@@ -300,18 +304,18 @@ body .challenge-section .img-container-right {
   body .img-container-left {
     margin-right: 0px;
   }
-}
-body footer {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-between;
-  position: relative;
-  border-radius: 48px 48px 0 0;
-  padding: 48px;
-  height: 140px;
-  background-color: #165963;
-}
-body footer p {
-  color: #ffffff;
+  body .footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+    border-radius: 48px 48px 0 0;
+    padding: 48px;
+    height: 140px;
+    background-color: #165963;
+  }
+  body p {
+    color: #ffffff;
+  }
 }/*# sourceMappingURL=style.css.map */
