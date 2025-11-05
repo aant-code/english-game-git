@@ -327,19 +327,6 @@ body {
           }
         }
     }
-    @media screen and (min-width: $width-menu-xl) {
-        .cards-container {
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-        }
-        .img-container-right {
-          margin-left: 0px;
-        }
-        .img-container-left {
-          margin-right: 0px;
-        }
-    }
     footer {
       display: flex;
       flex-direction: row;
