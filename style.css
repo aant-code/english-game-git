@@ -169,20 +169,21 @@ body .navbar .menu {
     margin-left: 16px;
   }
 }
-
-.hero-section {
+body .hero-section {
   background-color: #165963;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
-.hero-section h3 {
+body .hero-section h1 {
   color: #cffefb;
 }
-.hero-section p {
+body .hero-section p {
   color: #cffefb;
 }
-.hero-section button {
+body .hero-section button {
   background-color: #cffefb;
   color: #083c44;
   border: none;
@@ -190,7 +191,7 @@ body .navbar .menu {
   border-radius: 25px;
   font-size: 16px;
 }
-.hero-section video {
+body .hero-section video {
   border: 5px solid #cffefb;
-  border-radius: 8%;
+  border-radius: 25px;
 }/*# sourceMappingURL=style.css.map */
