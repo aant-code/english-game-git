@@ -277,24 +277,28 @@ body {
             margin-bottom: 8px;
         }
         img {
-            margin: 45px;
-            width: 75%;
-            height: auto;
+            width: 80%;
         }
         p {
             margin-bottom: 72px;
         }
         .background-img-left {
+            width: auto;
             background-color: $neutral0;
-            margin-left: -24px;
-            border-top-right-radius: 25px;
-            border-bottom-right-radius: 25px;
+            margin-left: -72px;
+            padding: 48px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: flex-end;
         }
         .background-img-right {
+            width: auto;
             background-color: $neutral0;
-            margin-right: -24px;
-            border-top-left-radius: 25px;
-            border-bottom-left-radius: 25px;
+            margin-right: -72px;
+            padding: 48px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: flex-end;
         }
     }
 }

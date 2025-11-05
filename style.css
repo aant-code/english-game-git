@@ -238,22 +238,26 @@ body .challenge-section h4 {
   margin-bottom: 8px;
 }
 body .challenge-section img {
-  margin: 45px;
-  width: 75%;
-  height: auto;
+  width: 80%;
 }
 body .challenge-section p {
   margin-bottom: 72px;
 }
 body .challenge-section .background-img-left {
+  width: auto;
   background-color: #ffffff;
-  margin-left: -24px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+  margin-left: -72px;
+  padding: 48px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
 }
 body .challenge-section .background-img-right {
+  width: auto;
   background-color: #ffffff;
-  margin-right: -24px;
-  border-top-left-radius: 25px;
-  border-bottom-left-radius: 25px;
+  margin-right: -72px;
+  padding: 48px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
 }/*# sourceMappingURL=style.css.map */
