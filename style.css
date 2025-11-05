@@ -257,7 +257,9 @@ body .challenge-section {
   border-top-left-radius: 48px;
   border-top-right-radius: 48px;
   color: #ffffff;
-  padding: 56px 0px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 body .challenge-section h2 {
   margin-top: 72px;
@@ -271,22 +273,32 @@ body .challenge-section p {
   margin-bottom: 72px;
 }
 body .challenge-section .cards-container {
-  padding: 0px 24px;
+  max-width: 750px;
   gap: 24px;
 }
 body .challenge-section .img-container-left {
   background-color: #ffffff;
-  padding: 48px;
   border-radius: 25px;
+  padding: 48px;
 }
 body .challenge-section .img-container-right {
   background-color: #ffffff;
-  padding: 48px;
   border-radius: 25px;
+  padding: 48px;
 }
 @media screen and (min-width: 1440px) {
   body .challenge-section .cards-container {
+    max-width: 1400px;
     display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  body .challenge-section .cards-container .card .img-container-left, body .challenge-section .cards-container .card .img-container-right {
+    padding: 48px;
+  }
+  body .challenge-section .cards-container .card img {
+    width: 354px;
+    height: 354px;
   }
 }
 body .footer {

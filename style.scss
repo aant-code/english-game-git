@@ -296,7 +296,9 @@ body {
         border-top-left-radius: 48px;
         border-top-right-radius: 48px;
         color: $neutral0;
-        padding: 56px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
         h2 {
           margin-top: 72px;
           margin-bottom: 72px;
@@ -309,22 +311,34 @@ body {
           margin-bottom: 72px;
         }
         .cards-container {
-          padding: 0px 24px;
+          max-width: 750px;
           gap: 24px;
         }
         .img-container-left {
           background-color: $neutral0;
-          padding: 48px;
           border-radius: 25px;
+          padding: 48px;
         }
         .img-container-right {
           background-color: $neutral0;
-          padding: 48px;
           border-radius: 25px;
+          padding: 48px
         }
         @media screen and (min-width: $width-menu-xl) {
           .cards-container {
+            max-width: 1400px;
             display: flex;
+            flex-direction: row;
+            justify-content: center;
+            .card {
+              .img-container-left, .img-container-right {
+              padding: 48px;
+              }
+              img {
+                width: 354px;
+                height: 354px;
+              }
+            }
           }
         }
     }
