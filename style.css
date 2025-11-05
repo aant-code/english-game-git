@@ -194,4 +194,8 @@ body .hero-section button {
 body .hero-section video {
   border: 5px solid #cffefb;
   border-radius: 25px;
+}
+body .footer {
+  height: 70px;
+  background-color: #0f878f;
 }/*# sourceMappingURL=style.css.map */
