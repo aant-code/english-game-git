@@ -315,13 +315,19 @@ body {
           gap: 24px;
         }
         .img-container-left {
+          display: flex;
+          justify-content: center;
           background-color: $neutral0;
-          border-radius: 25px;
+          border-radius: 0 25px 25px 0;
+          margin-left: -100px;
           padding: 48px;
         }
         .img-container-right {
+          display: flex;
+          justify-content: center;
           background-color: $neutral0;
-          border-radius: 25px;
+          border-radius: 25px 0 0 25px;
+          margin-right: -100px;
           padding: 48px
         }
         @media screen and (min-width: $width-menu-xl) {
@@ -333,6 +339,13 @@ body {
             .card {
               .img-container-left, .img-container-right {
               padding: 48px;
+              display: flex;
+              justify-content: center;
+              background-color: $neutral0;
+              border-radius: 25px;
+              margin-right: 0;
+              margin-left: 0;
+              padding: 48px
               }
               img {
                 width: 354px;
