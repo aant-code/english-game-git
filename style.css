@@ -217,4 +217,32 @@ body .quiz-section button {
   padding: 15px 25px;
   border-radius: 25px;
   font-size: 16px;
+}
+body .challenge-section {
+  background-color: #09aab1;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  padding-bottom: 24px;
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .challenge-section h3 {
+  margin-bottom: 16px;
+  text-align: center;
+}
+body .challenge-section img {
+  width: 200px;
+  height: auto;
+  margin-bottom: 16px;
+}
+body .challenge-section p.s-bold {
+  margin-bottom: 8px;
+}
+body .challenge-section .background-img {
+  background-color: #ffffff;
+  margin-left: -24px;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
 }/*# sourceMappingURL=style.css.map */
