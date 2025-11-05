@@ -159,7 +159,7 @@ body .navbar .settings .profile-link {
   font-weight: bold;
 }
 body section {
-  padding: 0 24px;
+  padding: 0 8%;
 }
 body .hero-section {
   display: flex;
@@ -244,9 +244,15 @@ body .quiz-section button {
   font-size: 16px;
 }
 body .challenge-section {
+<<<<<<< HEAD
   margin-top: -48px;
   background-color: #09aab1;
   border-radius: 48px 48px 0 0;
+=======
+  background-color: #00C0D0;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+>>>>>>> 428f9aa99bfd7211852760f882bb9ca9c61ad7a0
   padding-bottom: 24px;
   color: #ffffff;
   display: flex;
@@ -260,16 +266,28 @@ body .challenge-section h2 {
 }
 body .challenge-section h4 {
   margin-bottom: 8px;
+}
+body .challenge-section img {
   width: 80%;
 }
-body .challenge-section .background-img {
-  background-color: #ffffff;
-  margin-left: -24px;
-  border-top-right-radius: 25px;
-  border-bottom-right-radius: 25px;
+body .challenge-section p {
+  margin-bottom: 72px;
 }
-body .challenge-section .background-img img {
-  margin: 45px;
-  width: 75%;
-  height: auto;
+body .challenge-section .background-img-left {
+  width: auto;
+  background-color: #ffffff;
+  margin-left: -72px;
+  padding: 48px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-end;
+}
+body .challenge-section .background-img-right {
+  width: auto;
+  background-color: #ffffff;
+  margin-right: -72px;
+  padding: 48px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: flex-start;
 }/*# sourceMappingURL=style.css.map */

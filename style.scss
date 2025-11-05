@@ -200,7 +200,7 @@ body {
       }
     }
     section {
-        padding: 0 24px;
+        padding: 0 8%;
     }
     .hero-section {
       display: flex;
@@ -293,9 +293,15 @@ body {
         }
     }
     .challenge-section {
+<<<<<<< HEAD
         margin-top: -48px;
         background-color: $primary600;
         border-radius: 48px 48px 0 0;
+=======
+        background-color: #00C0D0;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+>>>>>>> 428f9aa99bfd7211852760f882bb9ca9c61ad7a0
         padding-bottom: 24px;
         color: $neutral0;
         display: flex;
@@ -308,8 +314,11 @@ body {
         }
         h4 {
             margin-bottom: 8px;
+        }
+        img {
             width: 80%;
         }
+<<<<<<< HEAD
         .background-img {
             background-color: $neutral0;
             margin-left: -24px;
@@ -320,6 +329,28 @@ body {
             width: 75%;
             height: auto;
             }
+=======
+        p {
+            margin-bottom: 72px;
+        }
+        .background-img-left {
+            width: auto;
+            background-color: $neutral0;
+            margin-left: -72px;
+            padding: 48px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: flex-end;
+        }
+        .background-img-right {
+            width: auto;
+            background-color: $neutral0;
+            margin-right: -72px;
+            padding: 48px;
+            border-radius: 25px;
+            display: flex;
+            justify-content: flex-start;
+>>>>>>> 428f9aa99bfd7211852760f882bb9ca9c61ad7a0
         }
     }
 }
