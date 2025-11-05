@@ -195,13 +195,16 @@ body {
       }
     
     }
+    section {
+        padding: 0 24px;
+    }
     .hero-section {
     background-color: $primary900;
     display: flex;
     flex-direction: column;
     align-items: center;
     padding-top: 32px;
-    padding-bottom: 32px;
+    padding-bottom: 72px;
     h1 {
         color: $primary100;
     }
@@ -217,6 +220,7 @@ body {
         font-size: 16px;
     }
     video {
+        margin: 24px 0;
         border: 5px solid $primary100;
         border-radius: 25px;
     }
