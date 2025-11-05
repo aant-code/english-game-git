@@ -183,6 +183,20 @@ body {
             align-items: center;
             justify-content: center;
           }
+          .profile-link {
+            display: inline-flex; 
+            align-items: center; 
+            justify-content: center; 
+            width: 25px; 
+            height: 25px; 
+            border-radius: 50%; 
+            background-color: #333; 
+            color: white; 
+            text-decoration: none; 
+            font-family: 'Inter', sans-serif;
+            font-size: 8px; 
+            font-weight: bold;
+          }
       }
       .menu {
           display: none;
