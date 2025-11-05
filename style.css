@@ -162,7 +162,7 @@ body .navbar .menu {
   flex-direction: column;
   align-items: center;
 }
-.hero-section h1 {
+.hero-section h3 {
   color: #cffefb;
 }
 .hero-section p {
@@ -177,7 +177,6 @@ body .navbar .menu {
   font-size: 16px;
 }
 .hero-section video {
-  width: auto;
-  border: 5px solid #a5fcf8;
-  border-radius: 4%;
+  border: 5px solid #cffefb;
+  border-radius: 8%;
 }/*# sourceMappingURL=style.css.map */

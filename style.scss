@@ -201,7 +201,7 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    h1 {
+    h3 {
         color: $primary100;
     }
     p {
@@ -216,8 +216,7 @@ body {
         font-size: 16px;
     }
     video {
-        width: auto;
-        border: 5px solid $primary200;
-        border-radius: 4%;
+        border: 5px solid $primary100;
+        border-radius: 8%;
     }
 }
