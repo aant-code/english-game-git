@@ -160,7 +160,7 @@ body .navbar .settings .profile-link {
   font-weight: bold;
 }
 body section {
-  padding: 0 8%;
+  padding: 0px 64px;
 }
 body .hero-section {
   background-color: #083c44;
@@ -255,10 +255,8 @@ body .challenge-section {
   top: -96px;
   border-top-left-radius: 48px;
   border-top-right-radius: 48px;
-  padding-bottom: 24px;
   color: #ffffff;
-  display: flex;
-  flex-direction: column;
+  padding: 56px 0px;
 }
 body .challenge-section h2 {
   margin-top: 72px;
@@ -272,39 +270,22 @@ body .challenge-section p {
   margin-bottom: 72px;
 }
 body .challenge-section .cards-container {
-  margin-top: 48px;
-  margin-bottom: 48px;
-  display: flex;
-  flex-direction: column;
-  gap: 48px;
+  padding: 0px 24px;
+  gap: 24px;
 }
 body .challenge-section .img-container-left {
   background-color: #ffffff;
-  margin-left: -72px;
   padding: 48px;
   border-radius: 25px;
-  display: flex;
-  justify-content: center;
 }
 body .challenge-section .img-container-right {
   background-color: #ffffff;
-  margin-right: -72px;
   padding: 48px;
   border-radius: 25px;
-  display: flex;
-  justify-content: center;
 }
 @media screen and (min-width: 1440px) {
   body .challenge-section .cards-container {
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-  }
-  body .challenge-section .img-container-right {
-    margin-left: 0px;
-  }
-  body .challenge-section .img-container-left {
-    margin-right: 0px;
   }
 }
 @media screen and (min-width: 1440px) {

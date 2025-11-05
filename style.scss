@@ -198,9 +198,11 @@ body {
           }
       }
     }
+
     section {
-        padding: 0 8%;
+    padding: 0px 64px;
     }
+
     .hero-section {
       background-color: $primary950;
       .hero-desktop {
@@ -292,10 +294,8 @@ body {
         top: -96px;
         border-top-left-radius: 48px;
         border-top-right-radius: 48px;
-        padding-bottom: 24px;
         color: $neutral0;
-        display: flex;
-        flex-direction: column;
+        padding: 56px 0px;
         h2 {
           margin-top: 72px;
           margin-bottom: 72px;
@@ -308,39 +308,22 @@ body {
           margin-bottom: 72px;
         }
         .cards-container {
-          margin-top: 48px;
-          margin-bottom: 48px;
-          display: flex;
-          flex-direction: column;
-          gap: 48px;
+          padding: 0px 24px;
+          gap: 24px;
         }
         .img-container-left {
           background-color: $neutral0;
-          margin-left: -72px;
           padding: 48px;
           border-radius: 25px;
-          display: flex;
-          justify-content: center;
         }
         .img-container-right {
           background-color: $neutral0;
-          margin-right: -72px;
           padding: 48px;
           border-radius: 25px;
-          display: flex;
-          justify-content: center;
         }
         @media screen and (min-width: $width-menu-xl) {
           .cards-container {
             display: flex;
-            flex-direction: row;
-            justify-content: space-between;
-          }
-          .img-container-right {
-            margin-left: 0px;
-          }
-          .img-container-left {
-            margin-right: 0px;
           }
         }
     }
