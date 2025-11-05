@@ -202,6 +202,14 @@ body {
     }
     .hero-section {
       background-color: $primary950;
+      .hero-desktop {
+        display: none;
+      }
+      .hero-mobile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+      }
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -217,6 +225,34 @@ body {
         margin: 24px 0;
         border: 5px solid $primary100;
         border-radius: 25px;
+      }
+      @media screen and (min-width: $width-menu-xl) {
+        .hero-desktop {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          padding-top: 72px;
+          padding-bottom: 72px;
+          .hero-text {
+            width: 40%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+          }
+          .hero-video {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            video{
+              width: 600px;
+              height: fill;
+              border: 16px solid $primary100;
+            }
+          }
+        }
+        .hero-mobile {
+          display: none;
+        }
       }
     }
     .quiz-section {
