@@ -277,16 +277,22 @@ body {
             margin-bottom: 8px;
             width: 80%;
         }
-        .background-img {
-            background-color: $neutral0;
-            margin-left: -24px;
-            border-top-right-radius: 25px;
-            border-bottom-right-radius: 25px;
-            img {
+        img {
             margin: 45px;
             width: 75%;
             height: auto;
         }
+        .background-img-left {
+            background-color: $neutral0;
+            margin-left: -24px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+        .background-img-right {
+            background-color: $neutral0;
+            margin-right: -24px;
+            border-top-left-radius: 25px;
+            border-bottom-left-radius: 25px;
         }
     }
 }

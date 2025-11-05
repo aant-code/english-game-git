@@ -238,14 +238,20 @@ body .challenge-section h4 {
   margin-bottom: 8px;
   width: 80%;
 }
-body .challenge-section .background-img {
+body .challenge-section img {
+  margin: 45px;
+  width: 75%;
+  height: auto;
+}
+body .challenge-section .background-img-left {
   background-color: #ffffff;
   margin-left: -24px;
   border-top-right-radius: 25px;
   border-bottom-right-radius: 25px;
 }
-body .challenge-section .background-img img {
-  margin: 45px;
-  width: 75%;
-  height: auto;
+body .challenge-section .background-img-right {
+  background-color: #ffffff;
+  margin-right: -24px;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
 }/*# sourceMappingURL=style.css.map */
