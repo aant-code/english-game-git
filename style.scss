@@ -257,14 +257,16 @@ body {
     }
     .quiz-section {
         border-radius: 48px 48px 0 0;
-        margin-top: -48px;
-        background-color: $neutral100;
-        margin-bottom: 24px;
-        gap: 24px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
+        position: relative;
+        top: -48px;
+        background-color: $neutral100;
+        gap: 24px;
+        padding-top: 32px;
+        padding-bottom: 96px;
         h1 {
           text-align: center;
           color: $primary900;
@@ -285,8 +287,10 @@ body {
     }
     .challenge-section {
         background-color: #00C0D0;
-        border-top-left-radius: 25px;
-        border-top-right-radius: 25px;
+        position: relative;
+        top: -96px;
+        border-top-left-radius: 48px;
+        border-top-right-radius: 48px;
         padding-bottom: 24px;
         color: $neutral0;
         display: flex;
