@@ -259,4 +259,32 @@ body {
         font-size: 16px;
         }
     }
+    .challenge-section {
+        background-color: $primary600;
+        border-top-left-radius: 25px;
+        border-top-right-radius: 25px;
+        padding-bottom: 24px;
+        color: $neutral0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        h3 {
+            margin-bottom: 16px;
+            text-align: center;
+        }
+        img {
+            width: 200px;
+            height: auto;
+            margin-bottom: 16px;
+        }
+        p.s-bold {
+            margin-bottom: 8px;
+        }
+        .background-img {
+            background-color: $neutral0;
+            margin-left: -24px;
+            border-top-right-radius: 25px;
+            border-bottom-right-radius: 25px;
+        }
+    }
 }
