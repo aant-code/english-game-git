@@ -239,8 +239,17 @@ body {
         border-radius: 25px;
     }
     }
-    .footer {
-      height: 70px;
-      background-color: $primary700;
+    .quiz-section {
+        height: 400px;
+        background-color: $neutral100;
+        margin-bottom: 24px;
+        button {
+        background-color: $primary100;
+        color: $primary950;
+        border: none;
+        padding: 15px 25px;
+        border-radius: 25px;
+        font-size: 16px;
+    }
     }
 }
