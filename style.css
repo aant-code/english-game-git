@@ -284,7 +284,7 @@ body .challenge-section .img-container-left {
   padding: 48px;
   border-radius: 25px;
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 body .challenge-section .img-container-right {
   background-color: #ffffff;
@@ -292,7 +292,7 @@ body .challenge-section .img-container-right {
   padding: 48px;
   border-radius: 25px;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
 }
 @media screen and (min-width: 1440px) {
   body .challenge-section .cards-container {
@@ -306,6 +306,7 @@ body .challenge-section .img-container-right {
   body .challenge-section .img-container-left {
     margin-right: 0px;
   }
+<<<<<<< HEAD
 }
 @media screen and (min-width: 1440px) {
   body .cards-container {
@@ -333,4 +334,6 @@ body footer {
 }
 body footer p {
   color: #ffffff;
+=======
+>>>>>>> acfc9728fc5393e53ff6dabaf918e61d42826c26
 }/*# sourceMappingURL=style.css.map */

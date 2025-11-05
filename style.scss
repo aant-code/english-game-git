@@ -320,7 +320,7 @@ body {
           padding: 48px;
           border-radius: 25px;
           display: flex;
-          justify-content: flex-end;
+          justify-content: center;
         }
         .img-container-right {
           background-color: $neutral0;
@@ -328,7 +328,7 @@ body {
           padding: 48px;
           border-radius: 25px;
           display: flex;
-          justify-content: flex-start;
+          justify-content: center;
         }
         @media screen and (min-width: $width-menu-xl) {
           .cards-container {
@@ -344,6 +344,7 @@ body {
           }
         }
     }
+<<<<<<< HEAD
     @media screen and (min-width: $width-menu-xl) {
         .cards-container {
           display: flex;
@@ -371,4 +372,6 @@ body {
         color: $neutral0;
       }
     }
+=======
+>>>>>>> acfc9728fc5393e53ff6dabaf918e61d42826c26
 }
