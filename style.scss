@@ -157,7 +157,6 @@ $other_blue-mds-logo-icon: #65c8d5;
 
 // infos design
 body {
-    font-family: "Inter", sans-serif;
     margin: 0;
     padding: 0;
     .navbar {
@@ -185,4 +184,23 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    h1 {
+        color: $primary100;
+    }
+    p {
+        color: $primary100;
+    }
+    button {
+        background-color: $primary100;
+        color: $primary950;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 25px;
+        font-size: 16px;
+    }
+    video {
+        width: auto;
+        border: 5px solid $primary200;
+        border-radius: 4%;
+    }
 }
