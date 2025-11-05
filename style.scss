@@ -196,16 +196,6 @@ body {
             font-weight: bold;
           }
       }
-      .menu {
-          display: none;
-          @media screen and (min-width: $width-menu-xl) {
-              display: flex;
-              flex-direction: row;
-              gap: 32px;
-              margin-left: 16px;
-          }
-      }
-    
     }
     section {
         padding: 0 8%;

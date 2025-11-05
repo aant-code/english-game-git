@@ -158,17 +158,6 @@ body .navbar .settings .profile-link {
   font-size: 8px;
   font-weight: bold;
 }
-body .navbar .menu {
-  display: none;
-}
-@media screen and (min-width: 1440px) {
-  body .navbar .menu {
-    display: flex;
-    flex-direction: row;
-    gap: 32px;
-    margin-left: 16px;
-  }
-}
 body section {
   padding: 0 8%;
 }
