@@ -289,10 +289,10 @@ body {
             justify-content: flex-end;
         }
 
-        @media (min-width: $width-menu-xl) {
+        @media screen and (min-width: $width-menu-xl) {
+            display: flex;
             flex-direction: row;
-            align-items: center;
-            justify-content: space-around;
+            justify-content: space-between;
         }
 
         .img-container-right {
