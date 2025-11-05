@@ -232,7 +232,6 @@ body .challenge-section p {
   margin-bottom: 72px;
 }
 body .challenge-section .img-container-left {
-  width: auto;
   background-color: #ffffff;
   margin-left: -72px;
   padding: 48px;
@@ -241,7 +240,6 @@ body .challenge-section .img-container-left {
   justify-content: flex-end;
 }
 body .challenge-section .img-container-right {
-  width: auto;
   background-color: #ffffff;
   margin-right: -72px;
   padding: 48px;
@@ -254,5 +252,11 @@ body .challenge-section .img-container-right {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+  }
+  body .img-container-left {
+    margin: 0px;
+  }
+  body .img-container-right {
+    margin: 0px;
   }
 }/*# sourceMappingURL=style.css.map */
